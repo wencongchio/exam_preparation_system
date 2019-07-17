@@ -1,0 +1,255 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+.login-page {
+    padding: 8% 0 0;
+    margin: auto;
+    background-image: url("images/background.jpg") ;
+    background-size: 100%;
+}
+
+.login-form {
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+    max-width: 550px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.login-form img{
+    margin-bottom: 50px;
+}
+
+.login-form input {
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.login-form button {
+    text-transform: uppercase;
+    outline: 0;
+    background: #4169E1;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+.login-form button:hover,
+.login-form button:active,
+.login-form button:focus {
+    background: #191970;
+}
+
+.login-form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.error{
+    color: red;
+}
+
+.topnav{
+    background-color: #F0EAD6;
+    top: 0;
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    line-height: 64px;
+}
+
+.topnav img{
+    float: left;
+}
+
+.topnav .logout{
+    float: right;
+}
+
+.topnav .logout a{
+    background-color: #d2b29b;
+    color: whitesmoke;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+.topnav .logout a:hover{
+    background-color: #955251;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.circleBtn{
+    border-radius: 50% !important;
+    padding: 5px 10px !important;
+}
+
+.error-form{
+    margin-top: 6em;
+}
+
+.question-table{
+    margin-bottom: 1em;
+}
+
+.question-table td{
+    padding: 0.3em;
+    white-space: nowrap;
+}
+
+.question-table .small-column{
+    width: 3%;
+}
+
+.question-table .medium-column{
+    width: 10%;
+}
+
+.exam-form .question{
+    padding: 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.exam-form .question .question-title{
+    font-size: 25px;
+    margin-right: 1em;
+}
+
+.exam-form .header{
+    line-height: 45px;
+}
+
+.exam-form .header .title{
+    font-size: 30px;
+}
+
+.exam-form .header .button-panel{
+    float: right;
+}
+
+.btn-primary{
+    background-color: #d2b29b !important;
+    border: 0 !important;
+}
+
+.btn-primary:hover{
+    background-color: #955251 !important;
+}
+
+.success-form{
+    margin-top: 6em;
+}
+
+.homepage .header{
+    line-height: 45px;
+}
+
+.homepage .header .title{
+    font-size: 30px;
+}
+
+.exam-paper .header .button-panel{
+    float: right;
+}
+
+.homepage .table th{
+    white-space: nowrap;
+}
+
+.homepage .table td{
+    line-height: 35px;
+    white-space: nowrap;
+}
+
+.homepage .table .small-column{
+    width: 10%;
+}
+
+.homepage .table .medium-column{
+    width: 15%;
+}
+
+.homepage .error-message{
+    font-size: 24px;
+    color: red;
+}
+
+.homepage .exam-paper{
+    padding: 20px;
+    box-shadow: 2px 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.homepage .past-paper{
+    padding: 20px;
+    box-shadow: 2px 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.admin-main .header{
+    line-height: 45px;
+}
+
+.admin-main .header .title{
+    font-size: 30px;
+}
+
+.admin-main .header .button-panel{
+    float: right;
+}
+
+.admin-main .table th{
+    white-space: nowrap;
+}
+
+.admin-main .table td{
+    line-height: 35px;
+    white-space: nowrap;
+}
+
+.admin-main .table .small-column{
+    width: 10%;
+}
+
+.admin-main .table .medium-column{
+    width: 15%;
+}
+
+.admin-main .error-message{
+    font-size: 24px;
+    color: red;
+}
+
+.upload-form{
+    padding: 20px;
+    box-shadow: 2px 5px 10px 0 rgba(0, 0, 0, 0.2);
+    width: 50%;
+    margin: auto;
+}
+
+.upload-form .title{
+    font-size: 30px;   
+}
+
+.upload-form label{
+    font-size: 20px;
+}
